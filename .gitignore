@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Weights / Models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Training outputs
+runs/
+wandb/
+logs/
+results/
+tensorboard/
+
+# Env
+.env
+.venv/
+venv/
+conda/
